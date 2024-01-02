@@ -1,11 +1,39 @@
+/* Common */
 .mr-b-10 {
     margin-bottom: 10px !important;
+}
+
+/* Advertisement */
+.advertisement {
+    background-color: #ff2e74;
+}
+
+.advertisement-item {
+    position: relative;
+    width: 1188px;
+    margin: 0 auto;
+}
+
+.advertisement-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.advertisement-closed {
+    color: var(--white-color);
+    font-size: 1.5rem;
+    position: absolute;
+    top: 11px;
+    right: 11px;
 }
 
 .header {
 
 }
 
+/* Headaer Navbar */
 .header__navbar {
 
 }
@@ -463,3 +491,6 @@ ul.download-description-list a {
     height: 45px;
     transform: translateY(-3px);
 }
+
+
+/* Header Menu */
